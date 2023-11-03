@@ -1,0 +1,451 @@
+/* font */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    height: 50px;
+    padding: 0 20px;
+}
+
+.logo {
+    
+    display: flex; 
+    align-items: center; 
+    margin-left: 10px; 
+    width: 35px;
+    height: 35px;
+    
+}
+.logo img {
+    width: 35px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+.nomeSite {
+    color: #fff; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+
+/* Primeiro Banner */
+.dogAkita {
+    width: 100%;
+    height: 150vh;
+    background-image: url(/image/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divDogAkita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -25%;
+    
+}
+
+.divDogAkita h2 {
+   
+    font-size: 51px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 25px;  
+    word-wrap:break-word;
+    max-width: 60%;
+    
+}
+
+.divDogAkita img {
+    width: 18vh;
+    height: auto;
+}
+
+
+/* banho e tosa */
+.dogPitbull {
+    width: 100%;
+    height: 150vh;
+    background-image: url(/image/background-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+     
+}
+
+.divDogPitbull {
+    
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: left; 
+    max-width: 50%; 
+}
+
+.divDogPitbull h2 {
+    
+    color: #3A342F;
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.divDogPitbull p {
+    font-size: 27px;
+    margin-bottom: 50px;
+    max-width: 80%;
+    line-height: 1.5; 
+}
+
+.divDogPitbull button {
+    border: none;
+    background-color: #3A342F;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+
+
+/* mordomia saudavel */
+.dogviralata {
+    width: 100%;
+    height: 150vh;
+    background-image: url(/image/background-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+     
+}
+
+.divDogViralata {
+    
+    border-radius: 10px;
+    text-align: left; 
+    max-width: 50%; 
+    margin-left: auto; 
+    padding-right: 20px;
+}
+
+.divDogViralata h2 {
+    text-align: left; 
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    
+}
+
+.divDogViralata p {
+    font-size: 27px;
+    margin-bottom: 20px; 
+    text-align: left;
+    color: #fff;
+    line-height: 1.5; 
+    max-width: 70%; 
+}
+
+.divDogViralata button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+/* apoio e marcas */
+
+.marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    
+}
+
+.marca h3 {
+    color: #FD6A9A;
+    font-size: 24px;
+    margin-right: 10px;
+    font-style: italic;
+    display: inline-block;
+   
+}
+
+.marca ul.apoio {
+    display: inline-block;
+    margin-right: 10px;
+    
+  
+}
+
+.marca ul.apoio li {
+    display: inline;
+    margin-right: 8px;
+    
+}
+.marca ul.apoio li img {
+    width: 30vh; 
+    height: auto;
+}
+
+.marcas h3, .marca ul.apoio, .marca ul.apoio li {
+    margin-top: 20px;
+    margin-right: 50px; 
+    margin-left: 60px;
+}
+
+
+/* footer */
+.footer-pag {
+    background-color: #eb4a7b;
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 29px; 
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+ul.footer li {
+    display: list-item;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-pag > div {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.logo2  {
+    display: none;
+}
+.nomeSite2{
+    display: none;
+}
+.icon2{
+    display: none;
+}
+/* responsividade */
+@media (max-width: 500px) 
+/* nav */
+{
+    nav ul li:nth-child(1),
+    nav ul li:nth-child(2) {
+        display: none;
+    }
+
+/* primeiro banner */
+    .dogAkita {
+        background-image: url(/image/dogAkitaMobile.png);
+        width: 100%;
+        height: 200vh;
+    }
+    .divDogAkita {
+        margin-top: -80%;
+    }
+    .divDogAkita h2 {
+        font-size: 50px;
+        word-wrap: normal;
+        max-width: 90%;
+        margin-bottom: 40px;
+    }
+    .divDogAkita img {
+        width: 30vh;
+        height: auto;
+    }
+
+ /* banho e tosa */   
+    .dogPitbull {
+        background-image: url(/image/dogPitbullmobile.png);
+        width: 100%;
+        height: 200vh;
+        display: flex;
+    }
+    .divDogPitbull {
+        max-width: 90%;
+        text-align: left;
+        background-color: transparent;
+        justify-content: center;
+        align-items: left;
+        text-align: left;
+        max-width: 80%;
+        margin-bottom: 99%;
+        margin-left: 5%;
+    }
+    .divDogPitbull h2 {
+    
+        color: #3A342F;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .divDogPitbull p {
+        font-size: 20px;
+        margin-bottom: 20px; 
+        text-align: left;
+        color: #000;
+        line-height: 1.5; 
+        max-width: 80%; 
+    }
+
+    /* mordomia saudavel */
+    .dogviralata {
+        background-image: url(/image/dogViralatamobile.png);
+        width: 100%;
+        height: 200vh;
+    }
+    .divDogViralata {
+        max-width: 90%;
+        text-align: left;
+        background-color: transparent;
+        justify-content: center;
+        align-items: left;
+        text-align: left;
+        max-width: 80%;
+        margin-bottom: 99%;
+        margin-left: 5%;
+    }
+    .divDogViralata h2 {
+    
+        color: #fff;
+        font-size: 40px;
+         font-weight: bold;
+         display: inline;
+    }
+    .divDogViralata p {
+        font-size: 20px;
+        margin-bottom: 20px; 
+        text-align: left;
+        color: #fff;
+        line-height: 1.5; 
+        max-width: 98%; 
+    }
+
+    /* marcas*/
+    .marca {
+        display: flex;
+        flex-direction: column; 
+    }
+    .marca h3 {
+        color: #FD6A9A;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .marca ul.apoio {
+        display: flex;
+        justify-content: space-between; 
+       
+    }
+
+    .marca ul.apoio li {
+        margin-right: 5px;
+        margin-bottom: 10%;
+    }
+
+    .marca .dogAkita,
+    .marca .dogPitbull {
+        width: 50%; 
+    }
+
+   /* Footer */
+   .logo2  {
+    display: initial;
+}
+.nomeSite2{
+    display: initial;
+}
+.icon2{
+    display: initial;
+}
+
+.logo2 img{
+    width: 35px; 
+}
+.nomeSite2 {
+    color: #fff; 
+    font-size: 25px;
+    
+}
+.icon2 ul li {
+    display: inline;
+}
+.footer-pag {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center; 
+  }
+  
+  .footer-pag > div {
+    margin: 10px; 
+  }
+
+  
+  
+  
+  
+  
+  
+
+
+}
+
+
+    
+    
+
+
